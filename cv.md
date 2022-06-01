@@ -16,7 +16,7 @@
 ### About me
 I am fron Minsk, but now I live in Batumi, Georgia since 2020.
 I have two sons - Rurik and Dobrynia and a daughter Taisa. I am going to be JS developer in the nearest future!
-пше 
+
 ---
 
 ### Hobbies
@@ -30,8 +30,8 @@ I have two sons - Rurik and Dobrynia and a daughter Taisa. I am going to be JS d
 ---
 
 ### Education
-* Belarussian State University
-* Learn.javascript.ru
+* Belarusian State University
+* learn.javascript.ru
 
 ---
 

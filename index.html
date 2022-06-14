@@ -18,18 +18,31 @@
           <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
           <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
           <li class="nav-item"><a href="#code-example" class="nav-link">Code Example</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">My projects</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-        <div class="container">
+    <main class="main">
+        <div class="container"><h1>Denis Chavko</h1>
             <section class="profile">
-                <h1>Denis Chavko</h1>
+                <div class="profile-me">
+                <div class="profile-me__1">
                 <img src="assets/img/me.jpg" class="pic" alt="Person">
-                <blockquote class="blackquote">Life loves those who love life</blockquote>
-                <div class="about">I am fron Minsk, but now I live in Batumi, Georgia since 2020. 
-                    I have two sons - Rurik and Dobrynia and a daughter Taisa. 
-                    I am going to be JS developer in the nearest future!</div>
+                </div>
+                <div class="about">
+                    <div class="aboutmini">
+                    <blockquote class="blackquote">"Life loves those <br>who love life!"</blockquote>
+                    </div>
+               </div>
+               <div class="profile-me__2">
+                <div class="profile33">
+                    I am from Minsk, but now I live in Batumi, Georgia since 2020. <br>
+                        My sons and wife are also here. Ruryk is 13 and Dobrynia is 4. <br>
+                        A daughter of mine is in Netherlands studying in University. <br>
+                        Gonna be JS developer in the nearest future!
+                    </div>
+                    </div>
+                </div>
             </section>
             <section class="section" id="contacts">
                 <h2 classs="section-title">Contacts</h2>
@@ -40,12 +53,6 @@
                     <li>Github: <a href="https://github.com/Manifestor51" target="_blank">@Manifestor51</a></li>
                 </ul>
             </section>
-            <!-- <section class="section" id="about-me">
-                <h2 classs="section-title">About me</h2>
-                <p>I am fron Minsk, but now I live in Batumi, Georgia since 2020. 
-                    I have two sons - Rurik and Dobrynia and a daughter Taisa. 
-                    I am going to be JS developer in the nearest future!</p>
-            </section> -->
             <section class="section" id="hobbies">
                 <h2 classs="section-title">Hobbies</h2>
                 <ul>
@@ -76,7 +83,7 @@
                 </ul>
             </section>
             <section class="section" id="languages">
-                <h2 classs="section-title">languages</h2>
+                <h2 classs="section-title">Languages</h2>
                 <p>I have B1 English level</p>
             </section>
             <section class="section" id="education">
@@ -88,18 +95,34 @@
             </section>
             <section class="section" id="code-example">
                 <h2 classs="section-title">Code example</h2>
-                <code>function filterRange(arr, a, b) {
-                    return arr.filter((num) => { return num >= a && num <= b });
-                }</code>
+                <div class="code">
+                <code>
+    function opposite(number) {
+        return -number;
+      }
+                </code>
+            </div>
+            </section>
+            <section class="section" id="projects">
+                <h2 classs="section-title">My projects</h2>
+                <ul>
+                    <li><a href="https://github.com/Manifestor51/rsschool-cv" target="_blank">RS school repo</a></li>
+                    <li><a href="https://github.com/Manifestor51/jsbasic-20220418_javascript" target="_blank">javascript.ru repo</a></li>
+                </ul>
             </section>
         </div>
     </main>
-    <footer>
-        <div class="footerz">
-        <p>&#169; 2022</p>
-        <a href="https://github.com/Manifestor51/" class="github nav-link">Manifestor51</a>
-        <a href="https://rs.school/js/" target="_blank"><img src="assets/img/rs_school_js.svg" class="image-footer" alt="rss"></a>
+    
+        <footer class="footer">
+            <div class="container2">
+            <div class="footer-wrapper">
+            <div class="copyright-git">
+                <div class="copyright">&#169; 2022</div>
+                <div class="git"><a href="https://github.com/Manifestor51/" class="github nav-link">Manifestor51</a></div>
+            </div>
+                <div class="rss"><a href="https://rs.school/js/" target="_blank"><img src="assets/img/rs_school_js.svg" class="image-footer" alt="rss"></a></div>
+            </div>
         </div>
-</footer>
+            </footer>
 </body>
 </html>

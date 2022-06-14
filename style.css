@@ -19,6 +19,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2;
 }
 
 h1 {
@@ -40,7 +44,7 @@ h1 {
   }
 
   .nav-link {
-    padding: 0 20px;
+    padding: 0 10px;
     line-height: 50px;
   }
 
@@ -63,12 +67,16 @@ h1 {
     border-bottom: 3px solid #ccc;
   }
 
-  code {
+  .code {
     background: transparent;
-    background-color: #c1da0b;
+    width: 80%;
+    background-color: lightgray;
     font-style: italic;
     font-size: large;
     font-family: monospace;
+    white-space: pre;
+    font-size: 14px;
+    line-height: 1;
   }
 
   .profile {
@@ -89,15 +97,77 @@ h1 {
     border-radius: 50%;
   }
 
-  .footerz {
-display: flex;
-color: red;
-  }
-
   .image-footer {
     height: 50px;
   }
 
   .header {
     max-width: 1440px;
+  }  
+
+
+  .footer1 {
+    display: flex;
   }
+
+  .footerp {
+    display: inline;
+  }
+
+  .profile-me {
+    width: 100%;
+    /* justify-content: space-between; */
+    display: flex;
+  }
+
+  .profile-me__1 {
+    text-align: center;
+  }
+
+  .about {
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .profile-me__2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile33 {
+    flex-grow: 3;
+    padding-left: 100px;
+  }
+
+  /* .footer {
+    max-width: 1440px;
+    display: flex;
+    color: rebeccapurple;
+    width: 50%;
+    align-items: center;
+  } */
+
+  .footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .container2 {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .copyright-git {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.main {
+margin-bottom: 10px;
+}

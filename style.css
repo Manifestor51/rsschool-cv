@@ -19,7 +19,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     font-size: 18px;
     font-weight: 400;
     line-height: 2;
@@ -48,19 +47,10 @@ h1 {
     line-height: 50px;
   }
 
-  .nav-link:hover {
+  a:hover {
     transition: .3s;
     color: #c1da0b;
   }
-
-  /* .section-item a {
-    color: #829985;
-    text-decoration: none;  
-    transition: color 0.5s;
-  }
-  .section-item a:hover {
-    color: #4d2323;
-  } */
 
   .section {
     width: 50%;
@@ -81,8 +71,6 @@ h1 {
 
   .profile {
     width: 100%;
-    /* display: flex; */
-    /* text-align: center; */
   }
 
   .blackquote {
@@ -105,7 +93,6 @@ h1 {
     max-width: 1440px;
   }  
 
-
   .footer1 {
     display: flex;
   }
@@ -116,7 +103,6 @@ h1 {
 
   .profile-me {
     width: 100%;
-    /* justify-content: space-between; */
     display: flex;
   }
 
@@ -125,7 +111,6 @@ h1 {
   }
 
   .about {
-    /* position: absolute; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -139,27 +124,13 @@ h1 {
   }
 
   .profile33 {
-    flex-grow: 3;
-    padding-left: 100px;
+    padding-left: 20px;
   }
-
-  /* .footer {
-    max-width: 1440px;
-    display: flex;
-    color: rebeccapurple;
-    width: 50%;
-    align-items: center;
-  } */
 
   .footer-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-
-  .container2 {
-    max-width: 1440px;
-    margin: 0 auto;
   }
 
   .copyright-git {
@@ -168,6 +139,18 @@ h1 {
     justify-content: center;
   }
 
-.main {
-margin-bottom: 10px;
-}
+  .main {
+  margin-bottom: 10px;
+  }
+
+  .introduction {
+    margin: 0px;
+  }
+
+  .rss {
+    width: 121px;
+    height: 45px;
+    background-image: url("assets/img/rs_school_js.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }

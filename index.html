@@ -4,9 +4,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <title>CV</title>
 </head>
 <body>
-    
+    <header class = "header">
+        <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#hobbies" class="nav-link">Hobbies</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#code-example" class="nav-link">Code Example</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <div class="container">
+            <section class="profile">
+                <h1>Denis Chavko</h1>
+                <img src="assets/img/me.jpg" class="pic" alt="Person">
+                <blockquote class="blackquote">Life loves those who love life</blockquote>
+                <div class="about">I am fron Minsk, but now I live in Batumi, Georgia since 2020. 
+                    I have two sons - Rurik and Dobrynia and a daughter Taisa. 
+                    I am going to be JS developer in the nearest future!</div>
+            </section>
+            <section class="section" id="contacts">
+                <h2 classs="section-title">Contacts</h2>
+                <ul>
+                    <li>Phone\Viber: <a href="tel:+375296393076">+375296393076</a></li>
+                    <li>E-mail: <a href="mailto:chavko.denis@gmail.com">chavko.denis@gmail.com</a></li>
+                    <li>Telegram: <a href="https://t.me/gosuperru" target="_blank">@gosuperru</a></li>
+                    <li>Github: <a href="https://github.com/Manifestor51" target="_blank">@Manifestor51</a></li>
+                </ul>
+            </section>
+            <!-- <section class="section" id="about-me">
+                <h2 classs="section-title">About me</h2>
+                <p>I am fron Minsk, but now I live in Batumi, Georgia since 2020. 
+                    I have two sons - Rurik and Dobrynia and a daughter Taisa. 
+                    I am going to be JS developer in the nearest future!</p>
+            </section> -->
+            <section class="section" id="hobbies">
+                <h2 classs="section-title">Hobbies</h2>
+                <ul>
+                    <li>Family</li>
+                    <li>Healthy Lifestyle</li>
+                    <li>Biohacking</li>
+                    <li>Education</li>
+                    <li>Traveling</li>
+                    <li>Tasty food</li>
+                </ul>
+            </section>
+            <section class="section" id="skills">
+                <h2 classs="section-title">Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>JavaScript</li>
+                </ul>
+            </section>
+            <section class="section" id="key-strengths">
+                <h2 classs="section-title">Key strengths</h2>
+                <ul>
+            <li>Hardworking</li>
+            <li>Responsible</li>
+            <li>Sociable</li>
+            <li>Quick learner</li>
+            <li>Goal-oriented</li>
+            <li>Conscientious</li>
+                </ul>
+            </section>
+            <section class="section" id="languages">
+                <h2 classs="section-title">languages</h2>
+                <p>I have B1 English level</p>
+            </section>
+            <section class="section" id="education">
+                <h2 classs="section-title">Education</h2>
+                <ul>
+                    <li>Belarusian State University</li>
+                    <li>learn.javascript.ru</li>
+                </ul>
+            </section>
+            <section class="section" id="code-example">
+                <h2 classs="section-title">Code example</h2>
+                <code>function filterRange(arr, a, b) {
+                    return arr.filter((num) => { return num >= a && num <= b });
+                }</code>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footerz">
+        <p>&#169; 2022</p>
+        <a href="https://github.com/Manifestor51/" class="github nav-link">Manifestor51</a>
+        <a href="https://rs.school/js/" target="_blank"><img src="assets/img/rs_school_js.svg" class="image-footer" alt="rss"></a>
+        </div>
+</footer>
 </body>
 </html>

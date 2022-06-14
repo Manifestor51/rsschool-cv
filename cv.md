@@ -1,6 +1,6 @@
 # Denis Chavko
 
-![Denis Chavko](img/me.jpg "Denis Chavko")
+![Denis Chavko](assets/img/me.jpg "Denis Chavko")
 > Life loves those who love life
 
 ---

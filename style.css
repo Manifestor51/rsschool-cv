@@ -1,157 +1,156 @@
 * {
-    box-sizing: border-box;
-  }
-
-@font-face {
-    font-family: 'Roboto';
-    src: url("assets/fonts/Roboto-Regular.ttf");
-    font-weight: 300;
+  box-sizing: border-box;
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url("assets/fonts/Roboto-Bold.ttf");
-    font-weight: 100;
+  font-family: "Roboto";
+  src: url("assets/fonts/Roboto-Regular.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("assets/fonts/Roboto-Bold.ttf");
+  font-weight: 100;
 }
 
 body {
-    font-family: 'Roboto';
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 2;
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 2;
 }
 
 h1 {
-    font-weight: 100;
+  font-weight: 100;
 }
 
 .container {
-    max-width: 1440px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-  }
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
 
-  .nav-list {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    list-style: none;
-  }
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
 
-  .nav-link {
-    padding: 0 10px;
-    line-height: 50px;
-  }
+.nav-link {
+  padding: 0 10px;
+  line-height: 50px;
+}
 
-  a:hover {
-    transition: .3s;
-    color: #c1da0b;
-  }
+a:hover {
+  transition: 0.3s;
+  color: #c1da0b;
+}
 
-  .section {
-    width: 50%;
-    border-bottom: 3px solid #ccc;
-  }
+.section {
+  width: 50%;
+  border-bottom: 3px solid #ccc;
+}
 
-  .code {
-    background: transparent;
-    width: 80%;
-    background-color: lightgray;
-    font-style: italic;
-    font-size: large;
-    font-family: monospace;
-    white-space: pre;
-    font-size: 14px;
-    line-height: 1;
-  }
+.code {
+  background: transparent;
+  width: 80%;
+  background-color: lightgray;
+  font-style: italic;
+  font-size: large;
+  font-family: monospace;
+  white-space: pre;
+  font-size: 14px;
+  line-height: 1;
+}
 
-  .profile {
-    width: 100%;
-  }
+.profile {
+  width: 100%;
+}
 
-  .blackquote {
-    color: grey;
-    font-style: italic;
-  }
+.blackquote {
+  color: grey;
+  font-style: italic;
+}
 
-  .pic {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
-  }
+.pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
 
-  .header {
-    max-width: 1440px;
-  }  
+.header {
+  max-width: 1440px;
+}
 
-  .profile-me {
-    width: 100%;
-    display: flex;
-  }
+.profile-me {
+  width: 100%;
+  display: flex;
+}
 
-  .profile-me__1 {
-    text-align: center;
-  }
+.profile-me__1 {
+  text-align: center;
+}
 
-  .about {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  }
+.profile-me__2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .profile-me__2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.profile33 {
+  padding-left: 20px;
+}
 
-  .profile33 {
-    padding-left: 20px;
-  }
-
-  .main {
+.main {
   margin-bottom: 10px;
-  }
+}
 
-  .introduction {
-    margin: 0px;
-  }
+.introduction {
+  margin: 0px;
+}
 
-  .rss {
-    width: 121px;
-    height: 45px;
-    background-image: url("assets/img/rs_school_js.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
+.rss {
+  width: 121px;
+  height: 45px;
+  background-image: url("assets/img/rs_school_js.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
-  .footer-wrapper {
-    display: flex;
-    align-items: center;
-  }
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+}
 
-  .footer1 {
-    display: flex;
-  }
+.footer1 {
+  display: flex;
+}
 
-  .footerp {
-    display: inline;
-  }
+.footerp {
+  display: inline;
+}
 
-  .copyright-git {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.copyright-git {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  .footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.footer .container {
+  justify-content: space-between;
+}

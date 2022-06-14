@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+  }
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/Roboto-Regular.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/Roboto-Bold.ttf");
+    font-weight: 100;
+}
+
+body {
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2;
+}
+
+h1 {
+    font-weight: 100;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+
+  .nav-link {
+    padding: 0 10px;
+    line-height: 50px;
+  }
+
+  .nav-link:hover {
+    transition: .3s;
+    color: #c1da0b;
+  }
+
+  /* .section-item a {
+    color: #829985;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+  .section-item a:hover {
+    color: #4d2323;
+  } */
+
+  .section {
+    width: 50%;
+    border-bottom: 3px solid #ccc;
+  }
+
+  .code {
+    background: transparent;
+    width: 80%;
+    background-color: lightgray;
+    font-style: italic;
+    font-size: large;
+    font-family: monospace;
+    white-space: pre;
+    font-size: 14px;
+    line-height: 1;
+  }
+
+  .profile {
+    width: 100%;
+    /* display: flex; */
+    /* text-align: center; */
+  }
+
+  .blackquote {
+    color: grey;
+    font-style: italic;
+  }
+
+  .pic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .image-footer {
+    height: 50px;
+  }
+
+  .header {
+    max-width: 1440px;
+  }  
+
+
+  .footer1 {
+    display: flex;
+  }
+
+  .footerp {
+    display: inline;
+  }
+
+  .profile-me {
+    width: 100%;
+    /* justify-content: space-between; */
+    display: flex;
+  }
+
+  .profile-me__1 {
+    text-align: center;
+  }
+
+  .about {
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .profile-me__2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile33 {
+    flex-grow: 3;
+    padding-left: 100px;
+  }
+
+  /* .footer {
+    max-width: 1440px;
+    display: flex;
+    color: rebeccapurple;
+    width: 50%;
+    align-items: center;
+  } */
+
+  .footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .container2 {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .copyright-git {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.main {
+margin-bottom: 10px;
+}
